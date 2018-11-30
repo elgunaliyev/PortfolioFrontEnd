@@ -1,0 +1,47 @@
+body {
+  font-size: 62.5%;
+}
+
+.timer_day {
+  border-radius: 100%;
+}
+
+.timer_hour {
+  border-radius: 100%;
+}
+
+.timer_minute {
+  border-radius: 100%;
+}
+
+.timer_second {
+  border-radius: 100%;
+}
+
+.bg_cyan {
+  background: cyan;
+}
+
+.bg_blue {
+  background: blue;
+}
+
+.bg_red {
+  background: red;
+}
+
+.bg_green {
+  background: lightgreen;
+}
+
+.bg_magenta {
+  background: magenta;
+}
+
+.bg_yellow {
+  background: yellow;
+}
+
+.bg_black {
+  background: black;
+}
