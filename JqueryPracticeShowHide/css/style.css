@@ -1,0 +1,13 @@
+body {
+  cursor: "pointer";
+}
+body #area .item {
+  margin: 10px;
+  cursor: "pointer";
+  height: 50px;
+  width: 500px;
+  transition: "all .3s ease-out";
+}
+body #area .item span {
+  padding: 10px;
+}
