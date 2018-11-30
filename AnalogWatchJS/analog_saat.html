@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="analog_saat.css">
+</head>
+<body>
+
+
+
+
+
+<div class="backwards"></div>
+<div class="centerBack"></div>
+<div class="center"></div>
+<!-- <div class="eqrebHour"></div>
+<div class="eqrebMin"></div> -->
+<div class="eqrebSec"></div>
+	
+
+		
+<script>
+	
+var seconds=document.getElementsByClassName('eqrebSec')[0];
+
+function clock() {
+	var now=new Date();
+	var ss=now.getSeconds();
+	var mm=now.getMinutes();
+	var hh=now.getHours();
+	seconds.style.transform="rotate("+(ss*6)+"deg)";
+	console.log(hh);
+
+}
+
+setInterval(function(){clock()},1000);
+
+
+
+</script>
+	
+	
+</body>
+</html>
