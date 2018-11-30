@@ -1,0 +1,11 @@
+body {
+  font-family: 'Open-sans', Sans-serif;
+}
+
+#header {
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(1, 1, 1, 0.5), rgba(0, 0, 0, 0.5)), url(https://irtech.biz/TF/brinlo/assets/img/bg/header-bg.jpg) center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
