@@ -1,0 +1,202 @@
+html,body{
+	margin:0;
+	padding:0;	
+}
+/*color*/
+.grey{
+	background: grey;
+	color: white;
+}
+.lightgrey{
+	background: lightgrey;
+	color: white;
+}
+/*main classes*/
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.vertical{width:1000px; height:16px;}
+.divTextStyle{
+	}
+
+#main{
+width:1000px;
+margin:0 auto;
+text-align:center;}
+
+
+/*header*/
+#header{
+	margin-top: 24px;
+	width:100%;
+	height: 70px;
+}
+.logo{
+	width:240px;
+	height: 100%;
+}
+
+.so{
+	margin-top:35px; 
+	width:320px;
+	height: 50%;
+}
+.search{
+	width:80%;
+	height:100%;
+}
+.ok{
+	width:20%;
+	height:100%;
+}
+
+/*navbar*/
+#navbar , .navPage{
+	width: 100%;
+	height: 40px;
+}
+ul {padding-left:0; margin-top: 0;}
+ul li{
+	text-decoration: none;
+	float: left;
+	list-style-type:none;
+	margin: 1% 2.5%;
+}
+
+
+/*banner*/
+#banner{
+	width:100%;
+	height: 240px;
+}
+.bannerRight , .footerRight {
+	width:320px;
+	height:100%;
+}
+.bannerLeft{
+	width:680px;
+	height:100%;
+}
+.bannnerRightIn{
+	width: 100%;
+	height: calc(25% - 1px);
+	border-bottom:1px  solid white;
+}
+  .bannnerRightIn:last-child{border-bottom: none;}
+
+/*content*/
+#content{
+	width: 100%;
+	height: 480px;
+}
+
+
+.contentLeft{
+	width:664px;
+	height:100%;
+	margin-right: 16px;
+}
+
+.contentRight{
+	width:320px;
+	height:100%;
+}
+
+.contentLeftUp1, .contentRightDiv1{
+	width: 100%;
+	height: 35px;
+}
+
+.contentLeftUp2{
+	width: 100%;
+	height: 179px;
+}
+
+.contentLeftMiddle{
+	width: 100%;
+	height: 80px;
+	margin:16px 0px;
+}
+
+.contentLeftDown{
+	width: 100%;
+	height: 154px;
+}
+
+.contentLeftDown div{
+	width: 154px;
+	height: 154px;
+	margin-right:16px;
+}
+.contentLeftDown div:last-child{
+	margin-right:0;
+}
+
+.contentRightIn{
+	width: 100%;
+	height: 104px;
+	margin-top:16px; 
+}
+.contentRightIn1{
+	width: 104px;
+	height:104px;
+}
+.contentRightIn2 {
+	width:216px;
+	height:104px;
+}
+.contentRightDivLast{
+	width: 320px;
+	height:85px;
+}
+
+/* footer footerRight yuxarida bannerdedir*/
+
+#footer{
+	width: 100%;
+	height: 170px;
+}
+
+.footerLeft{
+	width: 200px;
+	height: 138px;
+}
+
+.footerLeft div{
+	width: 200px;
+	height: 34px;
+	margin-bottom:12px;
+}
+
+.footerLeft div:nth-child(3) div{
+	width:50px; 
+	height:100%;
+}
+
+.footerRight div {
+	width: 100%;
+	height: 68px
+}
+
+.footerRight div div{
+	width: 68px;
+	height: 68px;
+	margin-right: 16px;
+}
+
+.footerRight div div:nth-child(4){
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
