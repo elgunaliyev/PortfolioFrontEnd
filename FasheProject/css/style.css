@@ -1,0 +1,167 @@
+/* Common styles */
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+  /* a{
+    transition: .3s;
+  } */
+  a:hover{
+    text-decoration: none !important;
+    color:#E55540;
+    
+  }
+
+/* Carousel Section*/
+.carousel-item:first-child{
+background: url(../images/master-slide-02.jpg) center center no-repeat;
+}
+
+.carousel-item:nth-child(2){
+    background: url(../images/master-slide-03.jpg) center center no-repeat;
+}
+
+.carousel-item:last-child{
+    background: url(../images/master-slide-04.jpg) center center no-repeat;
+
+}
+
+.carousel-item{
+    height: 35rem;
+    background-size: cover;
+    
+}
+.carousel-caption{
+    top:25%;
+}    
+
+.carousel-caption h1{
+ font-size: 4rem;
+ font-weight: bolder;
+ transition: .3s;
+
+}
+
+.carousel-caption p{
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: .3s;
+   }
+   
+.carousel-caption a{
+    padding: .6rem 2.5rem;
+    border-radius: 1.5rem;
+    transition: .5s;
+    border:none;
+}
+
+.carousel-caption a:hover{
+   background: #E55540;
+   color: #fff;
+}
+
+
+/* Product Section */
+#product .img-container {
+  position: relative;
+  overflow: hidden;
+}
+#product img{
+  transition: 0.6s;
+  transform: scale(1);
+}
+#product img:hover{
+  transform: scale(1.1);
+}
+#product .img-container a{
+  position: absolute;
+  right: 1.3rem;
+  top: 1.3rem;
+  z-index: 5;
+  padding: .8rem 2rem;
+  transition: .3s;
+  border:none;
+}
+#product div a:hover{
+  background: #E55540;
+  color: #fff;
+}
+
+#product a:hover +img{
+  transform: scale(1.1);
+}
+
+
+.sign-up{
+  background: #F2F2F2;
+  width: 100%;
+  height: 21.6rem;  
+}
+.sign-up h4{
+  color: #111111;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.sign-up a{
+  background: #111111; 
+  padding: .6rem 3rem;
+  border-radius: 1.5rem;
+}
+
+/* Blog Section */
+#blog .img-container{
+  overflow: hidden;
+}
+
+#blog img{
+  transition: 0.6s;
+  transform: scale(1);
+}
+#blog img:hover{
+  transform: scale(1.1);
+}
+
+/* Discount Section */
+#discount{
+  background: #F2F2F2;
+}
+
+#discount .img-container{
+  overflow: hidden;
+}
+
+#discount img{
+  transition: 0.6s;
+  transform: scale(1);
+}
+#discount img:hover{
+  transform: scale(1.1);
+}
+
+
+/* Copyright Section */
+
+#copyright  a:hover{
+  text-decoration: none !important;
+  color:#E55540 !important;
+  
+}
