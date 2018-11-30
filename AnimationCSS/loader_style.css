@@ -1,0 +1,66 @@
+
+@keyframes animate{
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		
+		transform: rotate(359deg);
+	
+	}
+}
+
+body,html{
+	margin:0;
+	padding:0px;
+}
+
+
+.blue,.red,.green{
+transform-origin: center;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-name: animate ;
+}
+
+
+.blue{
+	top:calc(50% - 65px);
+	left:calc(50% - 65px);
+	width: 120px;
+	height: 120px;
+	animation-duration: 1.5s;
+	position: absolute;
+	border-top: 5px solid blue;
+	border-radius: 50%;
+
+}
+
+.red{
+	top:calc(50% - 55px);
+	left:calc(50% - 55px);
+	width: 100px;
+	height: 100px;
+	animation-duration: 1.2s;
+	position: absolute;
+	border-radius: 50%;
+	border-left:5px solid red;
+/*	border-right:5px black;
+	border-top: 5px black;
+	border-right:5px black;*/
+}
+
+.green{
+
+	top:calc(50% - 45px);
+	left:calc(50% - 45px);
+	width: 80px;
+	height: 80px;
+	animation-duration: 1s;
+	position: absolute;
+	border-right: 5px solid green;
+	border-radius: 50%;
+}	
+
+}
