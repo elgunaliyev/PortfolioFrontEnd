@@ -1,0 +1,281 @@
+@keyframes solar{
+
+0%{transform: scale(1.0) }
+
+25%{transform: scale(1.04) }
+
+50%{transform: scale(1.07) }
+
+75%{transform: scale(1.0) }
+
+100%{ transform: scale(1)  }
+
+}
+
+@keyframes rotate{
+0%{transform: rotate(0deg)}
+
+25%{transform: rotate(90deg)}
+
+50%{transform: rotate(180deg)}
+
+75%{transform: rotate(270deg) }
+
+100%{ transform: rotate(360deg)}
+
+
+	/* from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		
+		transform: rotate(360deg);
+	
+	} */
+}
+
+body,html{
+	margin:0;
+	padding:0;
+	width: vw;
+	height: vh;
+	overflow: hidden;
+}
+
+.merkuriDiv , .veneraDiv, .yerDiv, .ayDiv, .marsDiv, .yupiDiv, .satDiv , .uranDiv, .nepDiv, .plDiv{
+position: absolute;
+border: 2px solid transparent;
+border-radius: 50%;
+background:rgba(185, 60, 60, 0.1);
+transform-origin: center;
+animation-iteration-count:infinite;
+animation-timing-function: linear;
+animation-name: rotate ;
+opacity: 0.8;
+z-index:3;
+}
+
+.merkuri , .venera, .yer, .ay, .mars, .yupi, .sat , .uran, .nep, .pl{
+position: absolute;
+border-radius: 50%;
+box-shadow: rgba(255, 0, 0, 1);
+z-index:4;
+}
+
+.solar{
+	position: absolute;
+	top:calc(50% - 20px);
+	left:calc(50% - 20px);
+	width: 24px;
+	height: 24px;
+	z-index: 5;
+	background: yellow;
+	border-radius: 50%;
+	border: 8px solid orange ;
+	transform-origin: center;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-name: solar ;
+	 
+}
+
+.merkuriDiv{
+	top:calc(50% - 32px);
+	left:calc(50% - 32px);
+	width: 60px;	
+	height: 60px;
+	animation-duration: 3s;
+
+}
+
+.merkuri{
+	top:calc(50% - 36px);
+	left: calc(50% - 5px);
+	width: 10px;
+	height: 10px;
+	background: brown;
+	
+}
+
+.veneraDiv{
+	top:calc(50% - 52px);
+	left:calc(50% - 52px);
+	width: 100px;
+	height: 100px;
+	animation-duration: 4s;
+	
+	 
+}
+
+.venera{
+	position: absolute;
+	top:calc(50% - 56px);
+	left: calc(50% - 5px);
+	width: 10px;
+	height: 10px;
+	background: orange;
+
+	 
+
+}
+
+.yerDiv{
+	top:calc(50% - 82px);
+	left:calc(50% - 82px);
+	width: 160px;
+	height: 160px;
+	animation-duration: 6s;
+}
+
+.yer{
+	top:calc(50% - 88.5px);
+	left: calc(50% - 7.5px);
+	width: 15px;
+	height: 15px;
+	background: cyan;
+	 
+}
+
+
+.ayDiv{
+	top:calc(50% - 97px);
+	left:calc(50% - 17px);
+	width: 30px;
+	height: 30px;
+	animation-duration: 3s;
+	opacity: 0.7;
+	 
+}
+
+
+.ay{
+	top: calc(50% - 18px);
+	left: calc(50% - 2.5px);
+	width: 5px;
+	height: 5px;
+	background: black;
+}
+
+
+.marsDiv{
+	top:calc(50% - 107px);
+	left:calc(50% - 107px);
+	width: 210px;
+	height: 210px;
+	animation-duration: 7s;
+	 
+}
+
+
+.mars{
+	top: calc(50% - 112px);
+	left: calc(50% - 6px);
+	width: 12px;
+	height: 12px;
+	background: red;
+}
+
+.yupiDiv{
+	top:calc(50% - 132px);
+	left:calc(50% - 132px);
+	width: 260px;
+	height: 260px;
+	animation-duration: 10s;
+	
+	 
+}
+
+
+.yupi{
+	top: calc(50% - 141px);
+	left: calc(50% - 10px);
+	width: 20px;
+	height: 20px;
+	background: darkgray;
+}
+
+
+
+
+.satDiv{
+	top:calc(50% - 157px);
+	left:calc(50% - 157px);
+	width: 310px;
+	height: 310px;
+	animation-duration: 12s;
+	 
+}
+
+
+.sat{
+	top: calc(50% - 165px);
+	left: calc(50% - 9px);
+	width: 18px;
+	height: 18px;
+	background: darkblue;
+}
+
+
+.uranDiv{
+	top:calc(50% - 182px);
+	left:calc(50% - 182px);
+	width: 360px;
+	height: 360px;
+	animation-duration: 14s;
+ 
+}
+
+
+.uran{
+	top: calc(50% - 189.5px);
+	left: calc(50% - 8.5px);
+	width: 17px;
+	height: 17px;
+	background: green;
+}
+
+
+
+.nepDiv{
+	top:calc(50% - 207px);
+	left:calc(50% - 207px);
+	width: 410px;
+	height: 410px;
+	animation-duration: 16s;
+}
+
+.nep{
+	top: calc(50% - 214px);
+	left: calc(50% - 8px);
+	width: 16px;
+	height: 16px;
+	background: black;
+}
+
+.plDiv{
+	top:calc(50% - 227px);
+	left:calc(50% - 227px);
+	width: 450px;
+	height: 450px;
+	animation-duration: 18s;
+}
+
+
+.pl{
+	top: calc(50% - 230px);
+	left: calc(50% - 4px);
+	width: 8px;
+	height: 8px;
+	background: brown;
+}
+
+
+
+
+
+
+
+
+

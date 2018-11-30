@@ -1,0 +1,49 @@
+
+
+@keyframes animate{
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		
+		transform: rotate(359deg);
+	
+	}
+}
+
+body,html{
+	margin:0;
+	padding:0px;
+}
+
+
+
+
+.merkuriDiv{
+	top:calc(50% - 32px);
+	left:calc(50% - 32px);
+	width: 60px;
+	height: 60px;
+	animation-duration: 3s;
+
+position: absolute;
+border: 2px solid gray;
+/*border-radius: 50%;*/
+transform-origin: center;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-name: animate ;
+opacity: 0.8;
+
+}
+
+.merkuri{
+	top:calc(50% - 36px);
+	left: calc(50% - 5px);
+	width: 10px;
+	height: 10px;
+	background: brown;
+
+position: absolute;
+border-radius: 50%;
