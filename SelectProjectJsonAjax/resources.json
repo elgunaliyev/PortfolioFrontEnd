@@ -1,0 +1,18 @@
+[
+    {
+        "country":"Poland",
+        "city":["Katowice","Gdansk","Krakow","Ludz"]
+    },
+    {
+        "country":"Azerbaijan",
+        "city":["Baku","Ganja","Lerik","Guba"]
+    },
+    {
+        "country":"Turkey",
+        "city":["Adana","Bodrum","Izmir","Istanbul"]
+    },
+    {
+        "country":"Russia",
+        "city":["Moskva","Sankt-Peterburg","Novqorod","Nalchik"]
+    }
+]
