@@ -1,0 +1,28 @@
+		.input1 {
+			text-align: center;
+			padding: 10px;
+			position: absolute;
+			top:88px;
+			left:42.5%;
+		}
+		.input2{
+			text-align: center;
+			padding: 10px;
+			position: absolute;
+			top:138px;
+			left:47%;
+
+		}
+		
+		h4  {display:inline-table;
+			padding: 5px;
+			margin: 5px;
+			text-align: center;
+			border:1px solid lightgray ;
+			}
+		h1 {display: block;
+			padding: 5px;
+			margin: 20px 5px;
+			text-align: center;
+			border:1px solid lightgray;
+			}

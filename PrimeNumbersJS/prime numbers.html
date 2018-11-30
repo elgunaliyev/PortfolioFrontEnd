@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Prime Numbers</title>
+	<link rel="stylesheet" type="text/css" href="css/primeNumbers.css">
+
+</head>
+
+<body>
+	<h1>İstənilən sayda Sadə ədədlərin hesablanması</h1>
+
+	<input class="input1" type="number" placeholder="Ədədi daxil edin" onchange="c()" id="result"><br>
+
+	<script>
+		document.write('<input  class="input2" type="button" onclick="num(inputValue)" value="Daxil et">')
+
+		function c() {
+			inputValue = document.getElementById('result').value;
+		}
+
+		var say = 0
+
+		function num(prime) {
+
+
+
+			document.write('<link rel="stylesheet" type="text/css" href="css/primeNumbers.css">')
+			document.write('<div>')
+			document.write('<h1>&nbsp;' + prime + '&nbsp; ədədinə qədər olan SADƏ ƏDƏDLƏR &nbsp;</h1>')
+			document.write('<h4>&nbsp;' + 2 + '&nbsp;</h4>')
+
+			for (var i = 3; i <= prime; i++) {
+
+
+				for (var u = 2; u < i; u++) {
+
+
+
+					var divide = i % u
+
+					if (divide == 0) {
+						break
+					} else if (u < i - 1) {
+
+						continue;
+					} else {
+						document.write('<h4>&nbsp;' + i + '&nbsp;</h4>')
+					}
+				}
+			}
+
+
+			document.write('</div>')
+		}
+	</script>
+</body>
+
+</html>
